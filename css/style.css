@@ -1,0 +1,49 @@
+
+header {
+  background-image: url('../assects/portada/pexels-mvdheuvel-2284166.jpg'); /* Cambia esto por la ruta de tu imagen */
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* Altura ajustable */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+    font-family: "Playwrite DK Loopet", cursive;
+  background-color: rgba(196, 38, 38, 0.5); /* Fondo semitransparente negro */
+  color: white;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+
+/* 🔽 Tablet: hasta 992px */
+@media (max-width: 992px) {
+  header {
+   
+    height: 250px;
+  }
+
+  header h1 {
+      background-color: rgba(36, 129, 191, 0.5); /* Fondo semitransparente negro */
+    font-size: 2em;
+    padding: 15px;
+  }
+}
+
+/* 🔽 Móvil: hasta 576px */
+@media (max-width: 576px) {
+  header {
+    
+    height: 200px;
+  }
+
+  header h1 {
+     background-color: rgba(21, 185, 89, 0.5); /* Fondo semitransparente negro */
+    font-size: 1.5em;
+    padding: 10px;
+  }
+}

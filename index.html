@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- enlace a google font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap" rel="stylesheet">
+
+    <title>Ejercicio con Card en bootstrap y personalización</title>
+
+    <!-- enlace a bootsytap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- enlace a style personalizado -->
+     <link rel="stylesheet" href="./css/style.css">
+  
+</head>
+<body >
+
+    <!-- barra de navegacion -->
+
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <img src="/assects/logo/fork-knife.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            Dietetica Tecnicaturas
+            </a>
+        </div>
+    </nav>
+
+
+    <!-- encabezado de página -->
+     <!-- personalizado con un estilo perosnal -->
+
+    <header>
+ 
+       <h1>Alimentacion Saludable</h1>
+
+      
+    </header>
+
+    <section class="container ">
+        <h1>Comidas Saludables</h1>
+        <h2>es importante que sepas... </h2>
+        <p>Se aprende a reconocer y a degustar la comida en el marco de un grupo social (familia, amigos, comedores, escuela, comunidad) y que todo es enseñanza: la elección de los alimentos, el prepararlos y el compartir.</p>
+        <p>Existen reglas de comensalidad, es decir formas y pautas a la hora de comer. Los niños, niñas y adolescentes son actores activos en estas situaciones: observan, imitan, exploran, aceptan, rechazan, modifican las preparaciones culinarias y las normas que encuadran las situaciones alimentarias.</p>
+        <p>Los/as adultos y adultas tienen un papel fundamental porque dejan marcas perdurables y las acciones cotidianas no pasan desapercibidas y tienen un valor especial para la construcción de las prácticas alimentarias. Es muy probable que aquellas comidas que se consumen en la infancia en situaciones placenteras, en lugares y con compañía agradables dejen emociones positivas, y luego se busquen y se vuelvan a elegir, porque recuerdan el calor y el amor recibido en aquellas circunstancias.</p>
+        <p>Existen prácticas culinarias que son habilidades necesarias para la selección, preparación previa, condimentación, cocción, combinación y presentación de los alimentos. De esas habilidades, desarrolladas, perfeccionadas en cada comunidad, y transmitidas a lo largo de generaciones, dependen el sabor, el aroma, la textura y la apariencia que los alimentos naturales o mínimamente procesados tendrán y cuánto les gustarán a las personas.</p>
+        <p>No cocinar tiene un impacto muy alto para la salud de las personas, que cada vez consumen menos comidas caseras y más alimentos envasados, que suelen tener demasiada sal, azúcar y grasas.</p>
+
+
+    </section>
+
+<!-- sección de recetas - vamos a usar card para presentar la información -->
+
+<section class="bg-danger-subtle pb-3  mb-3  ">
+
+    <!-- contenedor de la seccion recetas -->
+
+    <div class="container">
+
+            <h2>Recetas</h2>
+
+            <!-- definimos la fila que va a contener 4 columnnas cada una de ellas va a tener una card -->
+
+        <div class="row ">
+
+            <div class="col-12 col-md-6 col-lg-3 mt-2 ">
+                
+                <div class="card" >
+                <img src="./assects/cards/desayuno.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Desayuno</h5>
+                <p class="card-text">En un desayuno saludable debe estar presente los lácteos, los cereales, las legumbres y las frutas, que son las principales fuentes de fibra alimentaria y que cubren la recomendación necesaria diaria.</p>
+                <a href="https://medlineplus.gov/spanish/recetas/batido-energetico-de-pina-verde/" class="btn btn-primary">ver receta</a>
+                </div>
+            </div>
+
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 mt-2 ">
+
+                <div class="card " >
+                <img src="./assects/cards/sopa.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Sopas</h5>
+                    <p class="card-text">Las sopas de verduras son una muy buena fuente de vitaminas y minerales, con lo cual, no solo podrás perder peso, sino que estarás aportando a tu cuerpo elementos para mejorar tu estado de salud.</p>
+                    <a href="https://medlineplus.gov/spanish/recetas/sopa-de-pollo-con-tortilla/" class="btn btn-primary">ver receta</a>
+                </div>
+                </div>
+
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-3 mt-2 ">
+
+                <div class="card" >
+                <img src="./assects/cards/desayuno.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Desayuno</h5>
+                    <p class="card-text">Contiene alrededor de 15 nutrientes que van desde calorías, carbohidratos, proteínas, fibra alimenticia, Vitaminas A, C y E, Folatos, Potasio, Magnesio, Hierro, Calcio y Sodio, así como grasa monoinsaturada.</p>
+                    <a href="https://medlineplus.gov/spanish/recetas/batido-energetico-de-pina-verde/" class="btn btn-primary">ver receta</a>
+                </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 mt-2 ">
+
+                <div class="card" >
+                <img src="./assects/cards/verduras.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Verduras</h5>
+                    <p class="card-text">Puedes preparar la mayoría de vegetales al vapor: brócoli, coliflor, espárragos, maíz, zanahorias, espinacas, patatas. La espinaca es una verdura muy completa. Contiene altas cantidades de carotenoides y calcio.</p>
+                    <a href="https://www.paulinacocina.net/ingrediente/verduras" class="btn btn-primary">ver receta</a>
+                </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+  
+
+</section>
+
+<section class="container ">
+
+    <h2>Alimentación saludable y actividad física</h2>
+    
+    <p>Se considera actividad física a cualquier movimiento corporal producido por los músculos esqueléticos que exija gasto de energía. Con esta definición podemos decir que la actividad física abarca el ejercicio así como también otras actividades que incluyan movimiento y que se realizan como parte de los momentos de juego, del trabajo, de formas de transporte activas, de las tareas domésticas y de actividades recreativas.</p>
+    <p>Desde el punto de vista emocional, el ejercicio físico regular permite afrontar la vida con mayor optimismo y mejor disposición; mejorando el estado de ánimo y reforzando la autoestima.</p>
+    <p>Sin embargo a pesar de tener tantos beneficios, en Argentina la 3° encuesta Nacional de Factores de Riesgo (ENFR) reveló que más de la mitad de la población (54,7%) no alcanza los niveles de actividad física recomendados.</p>
+    <p>¡Mantené una vida activa! 30 minutos de actividad física todos los días te ayudan a cuidar tu salud y prevenir enfermedades. 1 hora por día en movimiento es, al menos, lo que necesitan los niños y adolescentes. Te dejamos algunos consejos para comenzar a estar en movimiento:</p>
+
+
+</section>
+
+
+
+<footer class="bg-danger-subtle  ">
+    <div class="container text-center pb-2  ">
+        <h3>Derechos Reservados 2025</h3>
+    </div>
+   
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
